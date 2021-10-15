@@ -8,8 +8,7 @@
     Create a variable called 'gitDefinition'.
     It should be a string containing your best definition of what Git is.
 */
-
-//CODE HERE
+let gitDefinition = "Git is a version control system, it allows individuals and teams to track changes made to code projects. Allows you to view long history of a project in snapshots."
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -17,7 +16,7 @@
     It should be a string containing your best definition of what GitHub is.
 */
 
-//CODE HERE
+let gitHubDefinition = "Not to be confused with 'git' github is an open source web-based interface that uses git. Github is a platform for collaboration, multiple people can make separate changes to a specific code."
 
 //////////////////PROBLEMS 3 - 8////////////////////
 /*
@@ -33,7 +32,7 @@
     following the guidelines above to describe the init command.
 */
 
-//CODE HERE
+const init = {description:"initialize a local repository in the root directory", code:"git init"}
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -41,7 +40,7 @@
     following the guidelines above to describe the clone command.
 */
 
-//CODE HERE
+const clone = {description:"target an existing repository and create a copy of the target repository",code:"git clone"}
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -49,7 +48,7 @@
     following the guidelines above to describe the status command.
 */
 
-//CODE HERE
+const status = {description:"gives status of current repository", code:"git status"}
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -57,7 +56,7 @@
     following the guidelines above to describe the add command.
 */
 
-//CODE HERE
+const add = {description:"add some files to be tracked ", code:"git add"}
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -65,7 +64,7 @@
     following the guidelines above to describe the commit command.
 */
 
-//CODE HERE
+const commit = {description:"create a snapshot of the files that are tracking", code:"git commit -m 'commit message'"}
 
 
 //////////////////PROBLEM 8////////////////////
@@ -74,4 +73,4 @@
     following the guidelines above to describe the push command.
 */
 
-//CODE HERE
+const push ={description:"push local commits on Github", code:"git push 'REPO_NAME OR URL'"}
